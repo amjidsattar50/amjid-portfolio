@@ -3,8 +3,8 @@ import Reveal from "@/components/reveal";
 const contactLinks = [
   {
     label: "GitHub",
-    value: "github.com/abdulsattarsonsstore-lgtm",
-    href: "https://github.com/abdulsattarsonsstore-lgtm",
+    value: "github.com/amjidsattar50",
+    href: "https://github.com/amjidsattar50",
   },
   {
     label: "LinkedIn",
