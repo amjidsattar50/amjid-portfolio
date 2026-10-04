@@ -25,6 +25,10 @@ export const metadata: Metadata = {
 
   metadataBase: new URL("https://amjidsattar.com"),
 
+  alternates: {
+    canonical: "https://amjidsattar.com",
+  },
+
   openGraph: {
     title: "Muhammad Amjid Sattar — DVM Student · Developer · Builder",
     description: "Building at the intersection of medicine, technology & AI.",
