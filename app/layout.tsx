@@ -75,8 +75,14 @@ export default function RootLayout({
                 "@context": "https://schema.org",
                 "@type": "Person",
                 name: "Muhammad Amjid Sattar",
+                alternateName: [
+                  "Amjid Sattar",
+                  "Muhammad Amjid Sattar",
+                  "Amjad Sattar",
+                  "Muhammad Amjad Sattar",
+                ],
                 url: "https://amjidsattar.com",
-                image: "https://amjidsattar.com/images/amjid.png",
+                image: "https://amjidsattar.com/images/amjidsattar.png",
                 jobTitle: "DVM Student · Developer · Builder · AI Explorer",
                 description:
                   "DVM student, developer, builder, and AI explorer working at the intersection of medicine, technology, and AI.",
