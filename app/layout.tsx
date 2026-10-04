@@ -106,6 +106,12 @@ export default function RootLayout({
                 "@context": "https://schema.org",
                 "@type": "WebSite",
                 name: "Muhammad Amjid Sattar",
+                alternateName: [
+                  "Amjid Sattar",
+                  "Muhammad Amjid Sattar",
+                  "Amjad Sattar",
+                  "Muhammad Amjad Sattar",
+                ],
                 url: "https://amjidsattar.com",
                 description:
                   "Personal portfolio of Muhammad Amjid Sattar — a DVM student, developer, builder, and AI explorer.",
