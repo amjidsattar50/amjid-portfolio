@@ -62,7 +62,53 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify([
+              {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                name: "Muhammad Amjid Sattar",
+                url: "https://amjidsattar.com",
+                image: "https://amjidsattar.com/images/amjid.png",
+                jobTitle: "DVM Student · Developer · Builder · AI Explorer",
+                description:
+                  "DVM student, developer, builder, and AI explorer working at the intersection of medicine, technology, and AI.",
+                sameAs: [
+                  "https://github.com/amjidsattar50",
+                  "https://www.linkedin.com/in/muhammad-amjid-sattar-49a9763b0/",
+                ],
+                knowsAbout: [
+                  "Veterinary Medicine",
+                  "Software Development",
+                  "Web Development",
+                  "Artificial Intelligence",
+                  "AI Automation",
+                ],
+                affiliation: {
+                  "@type": "CollegeOrUniversity",
+                  name: "University of Veterinary and Animal Sciences",
+                },
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                name: "Muhammad Amjid Sattar",
+                url: "https://amjidsattar.com",
+                description:
+                  "Personal portfolio of Muhammad Amjid Sattar — a DVM student, developer, builder, and AI explorer.",
+                publisher: {
+                  "@type": "Person",
+                  name: "Muhammad Amjid Sattar",
+                },
+              },
+            ]),
+          }}
+        />
+        {children}
+      </body>
     </html>
   );
 }
